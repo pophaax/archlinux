@@ -1,4 +1,4 @@
-echo "Arch Linux RPI Application Script"
+echo "Arch Linux Installation Script"
 
 # Update
 pacman -Syu
@@ -6,9 +6,9 @@ pacman -Syu
 # Base Developer Packages
 pacman -S base-devel
 
-# gpsd
+# GPS
 pacman -S gpsd
 
-# Sqlite3
+# SQL
 pacman -S sqlite3
 
