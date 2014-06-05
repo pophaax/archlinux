@@ -1,0 +1,11 @@
+[Unit]
+Description=sailingrobot
+
+[Service]
+Type=simple
+ExecStart=~/sailingrobot/sr
+RestartSec=5
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
