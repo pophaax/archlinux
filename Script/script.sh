@@ -1,5 +1,8 @@
 echo "Arch Linux Installation Script"
 
+#sv keyboardlayout
+localectl set-keymap --no-convert sv-latin1
+
 # Update
 pacman -Syu
 
