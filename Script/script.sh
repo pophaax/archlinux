@@ -17,3 +17,8 @@ pacman -S sqlite3
 
 # git
 pacman -S git-core
+
+# wiringPi
+# git clone git://git.drogon.net/wiringPi
+# cd wiringPi
+# ./build
