@@ -15,3 +15,5 @@ pacman -S gpsd
 # SQL
 pacman -S sqlite3
 
+# git
+pacman -S git-core
