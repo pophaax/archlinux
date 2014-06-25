@@ -1,5 +1,7 @@
 [Unit]
 Description=sailingrobot
+Requires=gpsd.service
+After=gpsd.service
 
 [Service]
 Type=simple
